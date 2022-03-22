@@ -1,5 +1,6 @@
 package top.hendrixshen.magiclib;
 
+import com.terraformersmc.modmenu.api.ModMenuApi;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,7 +12,7 @@ public class MagicLib implements ModInitializer {
         return LogManager.getLogger(MagicLibReference.getModId());
     }
     public static ConfigManager cm;
-
+    ModMenuApi a;
     @Override
     public void onInitialize() {
         getLogger().info(String.format("[%s]: Mod initialized - Version: %s", MagicLibReference.getModName(), MagicLibReference.getModVersion()));

@@ -1,4 +1,5 @@
 dependencies {
     minecraft("com.mojang:minecraft:1.17.1")
     modCompileOnly("curse.maven:modmenu-308702:3479750")
+    modRuntimeOnly("net.fabricmc.fabric-api:fabric-api:0.46.1+1.17")
 }
